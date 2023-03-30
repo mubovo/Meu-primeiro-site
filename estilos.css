@@ -1,0 +1,19 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: aqua;
+}
+.perfil > img{
+    border-radius: 50%;
+    width: 300px;
+}
+.ttlogo{
+    width: 2%;
+}
+.instalogo{
+    width: 2%;
+}

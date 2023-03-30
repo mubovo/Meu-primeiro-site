@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1,h2{
+   font-family: 'Oswald', sans-serif;
+   font-size: 30px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
+body{
+    font-size: 100%;
+    background:linear-gradient(rgb(103, 103, 241),rgb(238, 171, 48));
+}
+
+.lista{  
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    gap: 32px;
+    justify-content: space-around;
+}
+
+nav{
+    background-color: #333;
+    height: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li a{
+    color: white;
+    padding: 14px 16px;
+}
+
+.secao-blockchain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+   
+}
+.img-blockchain{
+    width: 960px;
+    height: 540px;
+    border-radius: 10px;
+}
+.secao-surgimento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.img-satoshi{
+    width: 960px;
+    height: 540px;
+    border-radius: 10px;
+}
+
+.cripto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.img-btc{
+    width: 960px;
+    height: 540px;
+    border-radius: 10px;
+}
+
+.nft{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.img-boredape{
+    width: 960px;
+    height: 540px;
+    border-radius: 10px;
+}
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+    margin:auto
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.pe{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 150px;
+}
+
+
+.gallery img{
+    margin: 10px;
+    max-width: 300px;
+    max-height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 10px #888888;
+}
+
+figure{
+    text-align: center;
+    border: 3px black;
+    margin: 5px;
+}
+figcaption{
+    text-shadow: 0px 0px 10px #888888;
+    font-weight: bold;
+}
+figure:hover{
+    font-size: 18px;
+}
